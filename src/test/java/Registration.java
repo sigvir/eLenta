@@ -50,7 +50,32 @@ public class Registration {
         driver.findElement(By.name("phone")).sendKeys("+37063353617");
         driver.findElement(By.name("email")).sendKeys("seegah@gmail.com");
         driver.findElement(By.id("submit-button")).click();
+        driver.findElement(By.id("inputfile")).sendKeys("C:\\Users\\seega\\OneDrive\\Desktop\\split-ends-close-up.jpg");
+        Thread.sleep(500);
+        driver.findElement(By.id("forward-button")).click();
+        driver.findElement(By.id("forward-button")).click();
+
+// https://elenta.lt/skelbimas/valdymas/1081164/7b242c58-8159-4185-99e2-9371be1d1f7d/
     }
+
+    // public void addAdvert () { random name string
+    // public void addInfo () { random words a lot
+
+    //public void price () { random numbers many,
+    //public void price2 () { numbers, letters
+    //public void price3 () { -100
+
+    //public void cityRegion () { Zarasai/Tumanas
+    //public void cityRegion2 () { Zaaaaaaaaaaaaaaaaaaa
+
+    //public void phoneNumber () { 3706353617 too short
+    //public void phoneNumber2 () { 3706335361777 too long
+    //public void phoneNumber3 () { +33363353617 other code
+    //public void phoneNumber4 () { +333 63353617 with space
+    //public void emailCheck () { gagag.com
+    //public void emailCheck2 () { gaga@com
+    // public void emailCheck3 () { gaga@.
+
 
     @BeforeClass
     public void beforeClass() {
